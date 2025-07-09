@@ -11,7 +11,7 @@ class ProyectosScreen extends StatelessWidget {
       'lenguaje': 'C, UART',
       'ide': 'STM32CubeIDE',
       'tecnologias': 'Microcontrolador STM32, sensor de humedad HL-69, módulo Bluetooth HC-05',
-      'github': '',
+      'github': 'https://github.com/DiegoAlex2099/Smart-Pot',
     },
     {
       'titulo': 'Almacen México',
@@ -19,7 +19,7 @@ class ProyectosScreen extends StatelessWidget {
       'lenguaje': 'Java',
       'ide': 'NetBeans',
       'tecnologias': 'Java JDK 17',
-      'github': '',
+      'github': 'https://github.com/DiegoAlex2099/Almacen-Mexico',
     },
     {
       'titulo': 'Portafolio Flutter',
@@ -27,7 +27,7 @@ class ProyectosScreen extends StatelessWidget {
       'lenguaje': 'Dart',
       'ide': 'Android Studio',
       'tecnologias': 'Flutter, Material 3',
-      'github': '',
+      'github': 'https://github.com/DiegoAlex2099/portafolio-flutter',
     },
     {
       'titulo': 'Sistema de Banco',
@@ -35,7 +35,7 @@ class ProyectosScreen extends StatelessWidget {
       'lenguaje': 'Java',
       'ide': 'NetBeans',
       'tecnologias': 'Java JDK 17',
-      'github': '',
+      'github': 'https://github.com/DiegoAlex2099/Banco-Azteca',
     },
   ];
 
@@ -60,7 +60,7 @@ class ProyectosScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final proyecto = proyectos[index];
           return Card(
-            color: const Color(0xFF6F577E),
+            color: const Color(0xBB6F577E),
             margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: ExpansionTile(
               title: Text(
